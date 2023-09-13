@@ -646,6 +646,19 @@ a {
   height: fit-content;
 }
 
+.chat-icon {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 30px;
+  bottom: 30px;
+  background-color: var(--wb-black);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px var(--wb-grey-60);
+}
+
 @media (max-width: 1024px) {
   .heading-4 {
     padding: 40px 0px;
