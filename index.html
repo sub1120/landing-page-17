@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>S-Class | Mercedes Maybach</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="header-top">
+        <div class="menu">
+          <img src="./assets/menu.svg" alt="menu" />
+        </div>
+        <div class="logo">
+          <img src="assets/logo.svg" alt="star" />
+        </div>
+        <p class="copyright">
+          © 2022 Mercedes-Benz AG. All rights reserved (publication details).
+        </p>
+        <div class="header-buttons">
+          <div class="search-input">
+            <input type="text" placeholder="Your search term / OnlineCode" />
+            <div class="search-icon">
+              <img src="/assets/search.svg" alt="search icon" />
+            </div>
+          </div>
+          <div>
+            <img src="/assets/star.svg" alt="star" />
+          </div>
+          <div>
+            <img src="/assets/avtar.svg" alt="avatar" />
+          </div>
+        </div>
+      </div>
+
+      <hr class="sperator-dark" />
+      <nav class="header-bottom">
+        <ul class="nav">
+          <li class="nav-link one">
+            <img src="/assets/car-icon.svg" alt="car icon" />Our models
+          </li>
+          <li class="nav-link">Buy online</li>
+          <li class="nav-link">Finance</li>
+          <li class="nav-link">Services</li>
+          <li class="nav-link">Our Brand</li>
+        </ul>
+      </nav>
+
+      <hr class="sperator-light" />
+      <div class="shop-now">
+        <p>
+          Explore your dream Mercedes-Benz. <a href="#">Shop online now.</a>
+        </p>
+      </div>
+    </header>
+
+    <!-- main -->
+    <main>
+      <!-- hero section -->
+      <section class="hero-section">
+        <div class="container">
+          <div class="hero-intro">
+            <h1 class="hero-heading">Maybach S-Class</h1>
+            <p class="hero-para">
+              Find available vehicles in the Online Showroom or book a test
+              drive.
+            </p>
+            <div class="hero-buttons">
+              <button class="benz-btn-primary">Book a test drive</button>
+              <button class="benz-btn-primary">Discover offers</button>
+            </div>
+          </div>
+
+          <p class="dhoni">
+            Unlock desire this festive season and stand a chance to win an
+            experience with M.S. Dhoni*
+          </p>
+        </div>
+      </section>
+
+      <!-- our recommendations -->
+      <section class="container recom-section">
+        <h1 class="heading-4 font-family-secondary">Our recommendations</h1>
+        <div class="recom-list">
+          <div class="recom-car">
+            <div class="recom-car-image">
+              <img src="./assets/recom-1.avif" alt="" />
+              <h3 class="recom-car-heading">Defining Class</h3>
+              <p class="recom-car-subheading">Since 1886.</p>
+            </div>
+            <div class="recom-buttons">
+              <button class="benz-btn-secondary">Learn More</button>
+              <button class="benz-btn-primary">Request a callback</button>
+            </div>
+          </div>
+          <div class="recom-car">
+            <div class="recom-car-image">
+              <img src="./assets/recom-2.avif" alt="" />
+              <h3 class="recom-car-heading">
+                Mercedes-AMG A 45 A 45 S 4MATIC+
+              </h3>
+              <p class="recom-car-subheading">Thrill for every day.</p>
+            </div>
+            <div class="recom-buttons">
+              <button class="benz-btn-secondary">Learn More</button>
+              <button class="benz-btn-primary">Request a callback</button>
+            </div>
+          </div>
+          <div class="recom-car">
+            <div class="recom-car-image">
+              <img src="./assets/recom-3.avif" alt="" />
+              <h3 class="recom-car-heading">
+                Buy your new Mercedes-Benz Online
+              </h3>
+              <p class="recom-car-subheading">
+                Browse the Mercedes-Benz Online Showroom today.
+              </p>
+            </div>
+            <div class="recom-buttons">
+              <button class="benz-btn-secondary">Learn More</button>
+              <button class="benz-btn-primary">Request a callback</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- all models -->
+      <section class="container model-section">
+        <h1 class="heading-4 font-family-secondary">All models</h1>
+
+        <!-- model nav -->
+        <nav class="model-nav">
+          <ul>
+            <li class="model-nav-item active">All models</li>
+            <li class="model-nav-item">AMG</li>
+            <li class="model-nav-item">MAYBACH</li>
+            <li class="model-nav-item">New models</li>
+          </ul>
+        </nav>
+
+        <!-- filter nav -->
+        <nav class="filter-nav">
+          <ul>
+            <li class="filter-nav-item">Limousine</li>
+            <li class="filter-nav-item active">SUV Range</li>
+            <li class="filter-nav-item">Hatchback</li>
+            <li class="filter-nav-item">Coupes</li>
+            <li class="filter-nav-item">Cabriolets/Roadsters</li>
+          </ul>
+        </nav>
+
+        <div class="filter-models">
+          <!-- model filter -->
+          <div class="filter-choose">
+            <!-- fuel type -->
+            <div class="fuel-type">
+              <h3>Fuel Type</h3>
+              <ul>
+                <li class="filter-item">
+                  <input
+                    type="checkbox"
+                    id="fuel-type"
+                    value="Electric"
+                  />Electric
+                </li>
+                <li class="filter-item">
+                  <input
+                    type="checkbox"
+                    id="fuel-type"
+                    value="Plug-in Hybrid"
+                  />Plug-in Hybrid
+                </li>
+              </ul>
+            </div>
+
+            <!-- body type -->
+            <div class="body-type">
+              <h3>Bodytype</h3>
+              <ul>
+                <li class="filter-item">
+                  <img src="/assets/limousine.svg" alt="limousine icon" />
+                  Limousine
+                </li>
+                <li class="filter-item active">
+                  <img src="/assets/suv.svg" alt="limousine icon" />
+                  SUV Range
+                </li>
+                <li class="filter-item">
+                  <img src="/assets/hatchback.svg" alt="limousine icon" />
+                  Hatchback
+                </li>
+                <li class="filter-item">
+                  <img src="/assets/coupes.svg" alt="limousine icon" />
+                  Coupes
+                </li>
+                <li class="filter-item">
+                  <img src="/assets/roadsters.svg" alt="limousine icon" />
+                  Cabriolets/Roadsters
+                </li>
+                <li class="filter-item">See All</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- filter output -->
+          <div class="filter-output">
+            <div class="filter-car">
+              <h3 class="filter-car-heading">EQS Limousine</h3>
+              <p class="filter-car-subheading">Starting from 1,59,00,000.00</p>
+              <div class="filter-car-image">
+                <img src="./assets/car-suv-1.webp" alt="car image" />
+              </div>
+              <div class="filter-car-buttons">
+                <button class="benz-btn-secondary">Learn more</button>
+                <button class="benz-btn-primary">Find more</button>
+              </div>
+            </div>
+            <div class="filter-car">
+              <h3 class="filter-car-heading">EQS Limousine</h3>
+              <p class="filter-car-subheading">Starting from 1,59,00,000.00</p>
+              <div class="filter-car-image">
+                <img src="./assets/car-suv-2.webp" alt="car image" />
+              </div>
+              <div class="filter-car-buttons">
+                <button class="benz-btn-secondary">Learn more</button>
+                <button class="benz-btn-primary">Find more</button>
+              </div>
+            </div>
+            <div class="filter-car">
+              <h3 class="filter-car-heading">EQS Limousine</h3>
+              <p class="filter-car-subheading">Starting from 1,59,00,000.00</p>
+              <div class="filter-car-image">
+                <img src="./assets/car-suv-3.webp" alt="car image" />
+              </div>
+              <div class="filter-car-buttons">
+                <button class="benz-btn-secondary">Learn more</button>
+                <button class="benz-btn-primary">Find more</button>
+              </div>
+            </div>
+            <div class="filter-car">
+              <h3 class="filter-car-heading">EQS Limousine</h3>
+              <p class="filter-car-subheading">Starting from 1,59,00,000.00</p>
+              <div class="filter-car-image">
+                <img src="./assets/car-suv-4.webp" alt="car image" />
+              </div>
+              <div class="filter-car-buttons">
+                <button class="benz-btn-secondary">Learn more</button>
+                <button class="benz-btn-primary">Find more</button>
+              </div>
+            </div>
+            <div class="filter-car">
+              <h3 class="filter-car-heading">EQS Limousine</h3>
+              <p class="filter-car-subheading">Starting from 1,59,00,000.00</p>
+              <div class="filter-car-image">
+                <img src="./assets/car-suv-5.webp" alt="car image" />
+              </div>
+              <div class="filter-car-buttons">
+                <button class="benz-btn-secondary">Learn more</button>
+                <button class="benz-btn-primary">Find more</button>
+              </div>
+            </div>
+            <div class="filter-car">
+              <h3 class="filter-car-heading">EQS Limousine</h3>
+              <p class="filter-car-subheading">Starting from 1,59,00,000.00</p>
+              <div class="filter-car-image">
+                <img src="./assets/car-suv-6.webp" alt="car image" />
+              </div>
+              <div class="filter-car-buttons">
+                <button class="benz-btn-secondary">Learn more</button>
+                <button class="benz-btn-primary">Find more</button>
+              </div>
+            </div>
+            <div class="filter-car">
+              <h3 class="filter-car-heading">EQS Limousine</h3>
+              <p class="filter-car-subheading">Starting from 1,59,00,000.00</p>
+              <div class="filter-car-image">
+                <img src="./assets/car-suv-7.webp" alt="car image" />
+              </div>
+              <div class="filter-car-buttons">
+                <button class="benz-btn-secondary">Learn more</button>
+                <button class="benz-btn-primary">Find more</button>
+              </div>
+            </div>
+            <div class="filter-car">
+              <h3 class="filter-car-heading">EQS Limousine</h3>
+              <p class="filter-car-subheading">Starting from 1,59,00,000.00</p>
+              <div class="filter-car-image">
+                <img src="./assets/car-suv-8.webp" alt="car image" />
+              </div>
+              <div class="filter-car-buttons">
+                <button class="benz-btn-secondary">Learn more</button>
+                <button class="benz-btn-primary">Find more</button>
+              </div>
+            </div>
+            <div class="filter-car">
+              <h3 class="filter-car-heading">EQS Limousine</h3>
+              <p class="filter-car-subheading">Starting from 1,59,00,000.00</p>
+              <div class="filter-car-image">
+                <img src="./assets/car-suv-9.webp" alt="car image" />
+              </div>
+              <div class="filter-car-buttons">
+                <button class="benz-btn-secondary">Learn more</button>
+                <button class="benz-btn-primary">Find more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- disclaimers -->
+      <section class="container disclaimer-section">
+        <h3 class="heading-1">Legal disclaimers and annotations</h3>
+        <p class="disclaimer-section-para">
+          [a] The prices specified herein are indicative and may not be final.
+          The indicated price may differ due to purchase of any additional
+          accessories, parts or products, services that may be availed by the
+          customer, discounts offered, change in government taxes, duties, fees
+          or levies, change of state of registration etc. Mercedes- Benz India
+          or the Authorised Franchise Partner shall not be responsible or liable
+          to compensate for the difference in the prices due to aforesaid
+          reasons or any reason beyond the control of Mercedes-Benz India or the
+          Authorised Franchise Partner. Actual colour of the vehicle may differ
+          from those shown in pictures. While Mercedes-Benz India tries to make
+          sure that all information provided herein is accurate, we shall not be
+          responsible for typographical and other errors (e.g., data
+          transmission) that may appear on the site. If the posted price
+          (including finance and lease payments) for a vehicle is incorrect,
+          Mercedes-Benz India will endeavor to provide you with the correct
+          prices as soon as we become aware of the error. In the event a vehicle
+          is priced incorrectly, Mercedes-Benz India shall have the right to
+          refuse or cancel any orders placed for the vehicle presented with the
+          incorrect price. In addition, vehicle prices are subject to change and
+          all vehicles are subject to prior sale and may not be available when
+          you are ready to purchase.
+        </p>
+      </section>
+
+      <!-- feature section -->
+      <section class="container feature-section">
+        <div class="feature-item">
+          <div class="feature-image">
+            <img src="./assets/store.svg" alt="store" />
+          </div>
+          <div>
+            <h3 class="feature-heading">Online Store</h3>
+            <p class="feature-desc">Discover your new Mercedes.</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-image">
+            <img src="./assets/config.svg" alt="store" />
+          </div>
+          <div>
+            <h3 class="feature-heading">Configurator</h3>
+            <p class="feature-desc">Configure your vehicle now.</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-image">
+            <img src="./assets/showroom.svg" alt="store" />
+          </div>
+          <div>
+            <h3 class="feature-heading">Nearest Showroom</h3>
+            <p class="feature-desc">Discover your new Mercedes.</p>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-image">
+            <img src="./assets/finance.svg" alt="store" />
+          </div>
+          <div>
+            <h3 class="feature-heading">Finance & Insurance</h3>
+            <p class="feature-desc">Find your suitable financial product.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="container footer">
+      <!-- footer top -->
+      <div class="footer-top">
+        <ul class="quick-links">
+          <li class="list-heading">Buy Vehicle</li>
+          <li>Pre-owned Card</li>
+          <li>Find a new car</li>
+          <li>Finance</li>
+          <li>Configure</li>
+          <li>All brochures</li>
+          <li>Model overview</li>
+        </ul>
+
+        <ul class="quick-links">
+          <li class="list-heading">Purchase advice</li>
+          <li>Pre-owned Card</li>
+          <li>Find a new car</li>
+          <li>Finance</li>
+          <li>Configure</li>
+          <li>All brochures</li>
+          <li>Model overview</li>
+        </ul>
+
+        <ul class="quick-links">
+          <li class="list-heading">Customer services</li>
+          <li>Pre-owned Card</li>
+          <li>Find a new car</li>
+          <li>Finance</li>
+          <li>Configure</li>
+          <li>All brochures</li>
+          <li>Model overview</li>
+        </ul>
+
+        <ul class="quick-links">
+          <li class="list-heading">Technology</li>
+          <li>Electric mobility</li>
+          <li>About Mercedes me</li>
+          <li>Connect services</li>
+        </ul>
+
+        <ul class="quick-links">
+          <li class="list-heading">Electric vehicles</li>
+          <li>Limousines</li>
+          <li>SUVs</li>
+          <li>Cabriolets & Roadsters</li>
+          <li>MERCEDES-AMG</li>
+        </ul>
+
+        <ul class="quick-links">
+          <li class="list-heading">About us</li>
+          <li>Contact</li>
+          <li>Grievances Redressal Mechanism</li>
+          <li>Cabriolets & Roadsters</li>
+          <li>Environment and Sustainability</li>
+          <li>Press Release</li>
+          <li>Careers</li>
+          <li>Mercedes-Benz Collection</li>
+          <li>Privacy</li>
+        </ul>
+      </div>
+
+      <hr class="sperator-dark" />
+
+      <!-- footer bottom -->
+      <div class="footer-bottom">
+        <ul>
+          <li>
+            <a href="#">
+              © 2023. Mercedes-Benz India Pvt. Ltd. All Rights Reserved
+              (provider)
+            </a>
+          </li>
+          <li>
+            <a href="#">Cookies</a>
+          </li>
+          <li>
+            <a href="#">Data Protection</a>
+          </li>
+          <li>
+            <a href="#">Legal notices</a>
+          </li>
+          <li>
+            <a href="#">Caution - Fraudulent job Offerings</a>
+          </li>
+          <li>
+            <a href="#">MB Dialogue - T & C</a>
+          </li>
+          <li>
+            <a href="#">Contest T&C</a>
+          </li>
+          <li>
+            <a href="#">Unlock Desire T&C</a>
+          </li>
+          <li>
+            <a href="#">Pay by link</a>
+          </li>
+        </ul>
+        <div class="social-links">
+          <div class="social-image">
+            <a href="#">
+              <img src="/assets/facebook.svg" alt="facebook" />
+            </a>
+          </div>
+
+          <div class="social-image">
+            <a href="#">
+              <img src="/assets/twitter.svg" alt="twitter" />
+            </a>
+          </div>
+
+          <div class="social-image">
+            <a href="#">
+              <img src="/assets/youtube.svg" alt="youtube" />
+            </a>
+          </div>
+
+          <div class="social-image">
+            <a href="#">
+              <img src="/assets/insta.svg" alt="insta" />
+            </a>
+          </div>
+
+          <div class="social-image">
+            <a href="#">
+              <img src="/assets/linkedin.svg" alt="linkedin" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
