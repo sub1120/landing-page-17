@@ -8,7 +8,7 @@
   </head>
   <body>
     <!-- header -->
-    <header class="header">
+    <header class="header" id="header">
       <div class="header-top">
         <div class="menu">
           <img src="./assets/menu.svg" alt="menu" />
@@ -39,12 +39,14 @@
       <nav class="header-bottom">
         <ul class="nav">
           <li class="nav-link one">
-            <img src="/assets/car-icon.svg" alt="car icon" />Our models
+            <a href="#">
+              <img src="/assets/car-icon.svg" alt="car icon" />Our models</a
+            >
           </li>
-          <li class="nav-link">Buy online</li>
-          <li class="nav-link">Finance</li>
-          <li class="nav-link">Services</li>
-          <li class="nav-link">Our Brand</li>
+          <li class="nav-link"><a href="#">Buy online</a></li>
+          <li class="nav-link"><a href="#">Finance</a></li>
+          <li class="nav-link"><a href="#">Services</a></li>
+          <li class="nav-link"><a href="#">Our Brand</a></li>
         </ul>
       </nav>
 
@@ -216,6 +218,9 @@
                 <button class="benz-btn-secondary">Learn more</button>
                 <button class="benz-btn-primary">Find more</button>
               </div>
+              <div class="filter-car-add-icon">
+                <img src="/assets/plus.svg" alt="plus icon" />
+              </div>
             </div>
             <div class="filter-car">
               <h3 class="filter-car-heading">EQS Limousine</h3>
@@ -226,6 +231,9 @@
               <div class="filter-car-buttons">
                 <button class="benz-btn-secondary">Learn more</button>
                 <button class="benz-btn-primary">Find more</button>
+              </div>
+              <div class="filter-car-add-icon">
+                <img src="/assets/plus.svg" alt="plus icon" />
               </div>
             </div>
             <div class="filter-car">
@@ -238,6 +246,9 @@
                 <button class="benz-btn-secondary">Learn more</button>
                 <button class="benz-btn-primary">Find more</button>
               </div>
+              <div class="filter-car-add-icon">
+                <img src="/assets/plus.svg" alt="plus icon" />
+              </div>
             </div>
             <div class="filter-car">
               <h3 class="filter-car-heading">EQS Limousine</h3>
@@ -248,6 +259,9 @@
               <div class="filter-car-buttons">
                 <button class="benz-btn-secondary">Learn more</button>
                 <button class="benz-btn-primary">Find more</button>
+              </div>
+              <div class="filter-car-add-icon">
+                <img src="/assets/plus.svg" alt="plus icon" />
               </div>
             </div>
             <div class="filter-car">
@@ -260,6 +274,9 @@
                 <button class="benz-btn-secondary">Learn more</button>
                 <button class="benz-btn-primary">Find more</button>
               </div>
+              <div class="filter-car-add-icon">
+                <img src="/assets/plus.svg" alt="plus icon" />
+              </div>
             </div>
             <div class="filter-car">
               <h3 class="filter-car-heading">EQS Limousine</h3>
@@ -270,6 +287,9 @@
               <div class="filter-car-buttons">
                 <button class="benz-btn-secondary">Learn more</button>
                 <button class="benz-btn-primary">Find more</button>
+              </div>
+              <div class="filter-car-add-icon">
+                <img src="/assets/plus.svg" alt="plus icon" />
               </div>
             </div>
             <div class="filter-car">
@@ -282,6 +302,9 @@
                 <button class="benz-btn-secondary">Learn more</button>
                 <button class="benz-btn-primary">Find more</button>
               </div>
+              <div class="filter-car-add-icon">
+                <img src="/assets/plus.svg" alt="plus icon" />
+              </div>
             </div>
             <div class="filter-car">
               <h3 class="filter-car-heading">EQS Limousine</h3>
@@ -293,6 +316,9 @@
                 <button class="benz-btn-secondary">Learn more</button>
                 <button class="benz-btn-primary">Find more</button>
               </div>
+              <div class="filter-car-add-icon">
+                <img src="/assets/plus.svg" alt="plus icon" />
+              </div>
             </div>
             <div class="filter-car">
               <h3 class="filter-car-heading">EQS Limousine</h3>
@@ -303,6 +329,9 @@
               <div class="filter-car-buttons">
                 <button class="benz-btn-secondary">Learn more</button>
                 <button class="benz-btn-primary">Find more</button>
+              </div>
+              <div class="filter-car-add-icon">
+                <img src="/assets/plus.svg" alt="plus icon" />
               </div>
             </div>
           </div>
@@ -343,135 +372,161 @@
           <div class="feature-image">
             <img src="./assets/store.svg" alt="store" />
           </div>
-          <div>
+          <div class="feature-about">
             <h3 class="feature-heading">Online Store</h3>
             <p class="feature-desc">Discover your new Mercedes.</p>
+          </div>
+          <div class="feature-arrow">
+            <img src="./assets/rightarrow.svg" alt="right arrow icon" />
           </div>
         </div>
         <div class="feature-item">
           <div class="feature-image">
             <img src="./assets/config.svg" alt="store" />
           </div>
-          <div>
+          <div class="feature-about">
             <h3 class="feature-heading">Configurator</h3>
             <p class="feature-desc">Configure your vehicle now.</p>
+          </div>
+          <div class="feature-arrow">
+            <img src="./assets/rightarrow.svg" alt="right arrow icon" />
           </div>
         </div>
         <div class="feature-item">
           <div class="feature-image">
             <img src="./assets/showroom.svg" alt="store" />
           </div>
-          <div>
+          <div class="feature-about">
             <h3 class="feature-heading">Nearest Showroom</h3>
             <p class="feature-desc">Discover your new Mercedes.</p>
+          </div>
+          <div class="feature-arrow">
+            <img src="./assets/rightarrow.svg" alt="right arrow icon" />
           </div>
         </div>
         <div class="feature-item">
           <div class="feature-image">
             <img src="./assets/finance.svg" alt="store" />
           </div>
-          <div>
+          <div class="feature-about">
             <h3 class="feature-heading">Finance & Insurance</h3>
             <p class="feature-desc">Find your suitable financial product.</p>
+          </div>
+          <div class="feature-arrow">
+            <img src="./assets/rightarrow.svg" alt="right arrow icon" />
           </div>
         </div>
       </section>
     </main>
+
     <!-- footer -->
     <footer class="container footer">
+      <!-- Up link -->
+      <a href="#header">
+        <div class="uparrow">
+          <div class="uparrow-icon"></div>
+          <p class="uparrow-text">Up</p>
+        </div>
+      </a>
+
       <!-- footer top -->
       <div class="footer-top">
         <ul class="quick-links">
-          <li class="list-heading">Buy Vehicle</li>
-          <li>Pre-owned Card</li>
-          <li>Find a new car</li>
-          <li>Finance</li>
-          <li>Configure</li>
-          <li>All brochures</li>
-          <li>Model overview</li>
+          <li class="link-heading">Buy Vehicle</li>
+          <li class="footer-link-item"><a href="#">Pre-owned Card</a></li>
+          <li class="footer-link-item"><a href="#">Find a new car</a></li>
+          <li class="footer-link-item"><a href="#">Finance</a></li>
+          <li class="footer-link-item"><a href="#">Configure</a></li>
+          <li class="footer-link-item"><a href="#">All brochures</a></li>
+          <li class="footer-link-item"><a href="#">Model overview</a></li>
         </ul>
 
         <ul class="quick-links">
-          <li class="list-heading">Purchase advice</li>
-          <li>Pre-owned Card</li>
-          <li>Find a new car</li>
-          <li>Finance</li>
-          <li>Configure</li>
-          <li>All brochures</li>
-          <li>Model overview</li>
+          <li class="link-heading">
+            <a href="#">Purchase advice</a>
+          </li>
+          <li class="footer-link-item"><a href="#">Book a test drive</a></li>
+          <li class="footer-link-item"><a href="#">Nearest Showroom</a></li>
         </ul>
 
         <ul class="quick-links">
-          <li class="list-heading">Customer services</li>
-          <li>Pre-owned Card</li>
-          <li>Find a new car</li>
-          <li>Finance</li>
-          <li>Configure</li>
-          <li>All brochures</li>
-          <li>Model overview</li>
+          <li class="link-heading">Customer services</li>
+          <li class="footer-link-item">
+            <a href="#">Book a service appointment</a>
+          </li>
+          <li class="footer-link-item"><a href="#">Owner's Manuals</a></li>
         </ul>
 
         <ul class="quick-links">
-          <li class="list-heading">Technology</li>
-          <li>Electric mobility</li>
-          <li>About Mercedes me</li>
-          <li>Connect services</li>
+          <li class="link-heading">Technology</li>
+          <li class="footer-link-item"><a href="#">Electric mobility</a></li>
+          <li class="footer-link-item"><a href="#">About Mercedes me</a></li>
+          <li class="footer-link-item"><a href="#">Connect services</a></li>
         </ul>
 
         <ul class="quick-links">
-          <li class="list-heading">Electric vehicles</li>
-          <li>Limousines</li>
-          <li>SUVs</li>
-          <li>Cabriolets & Roadsters</li>
-          <li>MERCEDES-AMG</li>
+          <li class="link-heading">Electric vehicles</li>
+          <li class="footer-link-item"><a href="#">Limousines</a></li>
+          <li class="footer-link-item"><a href="#">SUVs</a></li>
+          <li class="footer-link-item">
+            <a href="#">Cabriolets & Roadsters</a>
+          </li>
+          <li class="footer-link-item"><a href="#">MERCEDES-AMG</a></li>
         </ul>
 
         <ul class="quick-links">
-          <li class="list-heading">About us</li>
-          <li>Contact</li>
-          <li>Grievances Redressal Mechanism</li>
-          <li>Cabriolets & Roadsters</li>
-          <li>Environment and Sustainability</li>
-          <li>Press Release</li>
-          <li>Careers</li>
-          <li>Mercedes-Benz Collection</li>
-          <li>Privacy</li>
+          <li class="link-heading">About us</li>
+          <li class="footer-link-item"><a href="#">Contact</a></li>
+          <li class="footer-link-item">
+            <a href="#">Grievances Redressal Mechanism</a>
+          </li>
+          <li class="footer-link-item">
+            <a href="#">Cabriolets & Roadsters</a>
+          </li>
+          <li class="footer-link-item">
+            <a href="#">Environment and Sustainability</a>
+          </li>
+          <li class="footer-link-item"><a href="#">Press Release</a></li>
+          <li class="footer-link-item"><a href="#">Careers</a></li>
+          <li class="footer-link-item">
+            <a href="#">Mercedes-Benz Collection</a>
+          </li>
+          <li class="footer-link-item"><a href="#">Privacy</a></li>
         </ul>
       </div>
 
       <hr class="sperator-dark" />
-
       <!-- footer bottom -->
       <div class="footer-bottom">
         <ul>
-          <li>
+          <li class="footer-link-item">
             <a href="#">
               © 2023. Mercedes-Benz India Pvt. Ltd. All Rights Reserved
               (provider)
             </a>
           </li>
-          <li>
+          <li class="footer-link-item">
             <a href="#">Cookies</a>
           </li>
-          <li>
+          <li class="footer-link-item">
             <a href="#">Data Protection</a>
           </li>
-          <li>
+          <li class="footer-link-item">
             <a href="#">Legal notices</a>
           </li>
-          <li>
+          <li class="footer-link-item">
             <a href="#">Caution - Fraudulent job Offerings</a>
           </li>
-          <li>
+          <li class="footer-link-item">
             <a href="#">MB Dialogue - T & C</a>
           </li>
-          <li>
+          <li class="footer-link-item">
             <a href="#">Contest T&C</a>
           </li>
-          <li>
+          <li class="footer-link-item">
             <a href="#">Unlock Desire T&C</a>
           </li>
-          <li>
+          <li class="footer-link-item">
             <a href="#">Pay by link</a>
           </li>
         </ul>
